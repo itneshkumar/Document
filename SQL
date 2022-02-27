@@ -1,0 +1,8 @@
+select Employee.name, salary.salary
+from Employee join Salary on Employee.empid= salary.empid
+where salary>=10000;
+
+select EmpName
+from Employee
+where EmpName like "s%";
+
